@@ -1,0 +1,1568 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Jun 20 02:11:02 +1000 2012
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (7ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Jun 20 02:12:00 +1000 2012
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Jun 20 02:20:24 +1000 2012
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/hello.html" for 127.0.0.1 at Wed Jun 20 02:22:14 +1000 2012
+
+ActionController::RoutingError (No route matches [GET] "/hello.html"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Jun 20 02:22:20 +1000 2012
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Wed Jun 20 02:26:35 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Compiled pages.css  (5ms)  (pid 22054)
+Compiled application.css  (15ms)  (pid 22054)
+Compiled jquery.js  (9ms)  (pid 22054)
+Compiled jquery_ujs.js  (0ms)  (pid 22054)
+Compiled pages.js  (140ms)  (pid 22054)
+Compiled application.js  (268ms)  (pid 22054)
+Completed 200 OK in 425ms (Views: 424.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Jun 20 02:26:36 +1000 2012
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Jun 20 02:26:36 +1000 2012
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Wed Jun 20 02:26:36 +1000 2012
+Served asset /pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Jun 20 02:26:36 +1000 2012
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Wed Jun 20 02:26:36 +1000 2012
+Served asset /pages.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Jun 20 02:26:36 +1000 2012
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at Wed Jun 20 02:26:40 +1000 2012
+
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Wed Jun 20 02:26:48 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Wed Jun 20 02:26:48 +1000 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Wed Jun 20 02:26:48 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Jun 20 02:27:19 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Wed Jun 20 02:27:19 +1000 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Wed Jun 20 02:27:19 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Wed Jun 20 02:28:48 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Jun 20 02:28:48 +1000 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Wed Jun 20 02:28:48 +1000 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Wed Jun 20 02:28:48 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Jun 20 02:28:48 +1000 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Jun 20 23:48:02 +1000 2012
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (27ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Wed Jun 20 23:48:03 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (56.1ms)
+Completed 200 OK in 215ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Jun 20 23:48:03 +1000 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Wed Jun 20 23:48:03 +1000 2012
+Served asset /pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:03 +1000 2012
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:03 +1000 2012
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:03 +1000 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:03 +1000 2012
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at Wed Jun 20 23:48:06 +1000 2012
+
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Wed Jun 20 23:48:09 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Jun 20 23:48:09 +1000 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:09 +1000 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:09 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:09 +1000 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Jun 20 23:48:09 +1000 2012
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (3.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Fri Jun 22 00:34:04 +1000 2012
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 00:34:11 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 106ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Jun 22 00:34:11 +1000 2012
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Fri Jun 22 00:34:11 +1000 2012
+Served asset /pages.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Jun 22 00:34:11 +1000 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Jun 22 00:34:11 +1000 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Jun 22 00:34:11 +1000 2012
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Fri Jun 22 00:34:11 +1000 2012
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 00:38:13 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Jun 22 00:38:13 +1000 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Jun 22 00:38:13 +1000 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Fri Jun 22 00:38:13 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Jun 22 00:38:13 +1000 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Jun 22 00:38:13 +1000 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 00:39:33 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 74ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Jun 22 00:39:33 +1000 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:33 +1000 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:33 +1000 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Fri Jun 22 00:39:33 +1000 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:33 +1000 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:33 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 00:39:34 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Fri Jun 22 00:39:34 +1000 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:34 +1000 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:34 +1000 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:34 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Jun 22 00:39:34 +1000 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:34 +1000 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 00:39:35 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:35 +1000 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Jun 22 00:39:35 +1000 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:35 +1000 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:35 +1000 2012
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Jun 22 00:39:35 +1000 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at Fri Jun 22 00:39:35 +1000 2012
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 00:40:39 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 00:49:41 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Fri Jun 22 01:01:18 +1000 2012
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Fri Jun 22 01:01:23 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Fri Jun 22 01:01:38 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Fri Jun 22 01:02:24 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Fri Jun 22 01:02:47 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Sat Jun 23 09:20:31 +1000 2012
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 09:20:38 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Sat Jun 23 09:35:14 +1000 2012
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 09:35:19 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Sat Jun 23 22:49:10 +1000 2012
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (25ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Sat Jun 23 22:49:12 +1000 2012
+  [1m[36m (13.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (1.7ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 22:49:45 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 22:53:49 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 22:53:50 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (2.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:01:42 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:01:47 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:07:12 +1000 2012
+
+SyntaxError (/Users/alongal/ruby-on-rails/sample_app/app/helpers/application_helper.rb:11: syntax error, unexpected $end, expecting kEND):
+  app/controllers/application_controller.rb:1
+  app/controllers/pages_controller.rb:2
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:08:21 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:08:39 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:08:42 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:10:28 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:20:30 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 84ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:20:30 +1000 2012
+Served asset /blueprint/screen.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:20:30 +1000 2012
+Served asset /blueprint/print.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:20:34 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:20:34 +1000 2012
+Served asset /blueprint/screen.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:20:34 +1000 2012
+Served asset /blueprint/print.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:20:34 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:20:34 +1000 2012
+Served asset /blueprint/screen.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:20:34 +1000 2012
+Served asset /blueprint/print.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:20:35 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:20:35 +1000 2012
+Served asset /blueprint/screen.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:20:35 +1000 2012
+Served asset /blueprint/print.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:20:39 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:20:39 +1000 2012
+Served asset /blueprint/screen.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:20:39 +1000 2012
+Served asset /blueprint/print.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:21:05 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:21:05 +1000 2012
+Served asset /public/blueprint/screen.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/public/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/public/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:21:05 +1000 2012
+Served asset /public/blueprint/print.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/public/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:22:05 +1000 2012
+Connecting to database specified by database.yml
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:22:05 +1000 2012
+Served asset /public/blueprint/screen.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/public/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/public/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:22:05 +1000 2012
+Served asset /public/blueprint/print.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/public/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:22:35 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:22:36 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:22:37 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:28:50 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Compiled blueprint/screen.css  (0ms)  (pid 36858)
+Compiled blueprint/print.css  (0ms)  (pid 36858)
+Completed 200 OK in 129ms (Views: 128.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:28:52 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:28:52 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:29:13 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at Sat Jun 23 23:29:13 +1000 2012
+Served asset /blueprint/screen.css - 200 OK (3ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at Sat Jun 23 23:29:13 +1000 2012
+Served asset /blueprint/print.css - 200 OK (2ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:29:51 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:29:51 +1000 2012
+Served asset /blueprint/screen.css - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:29:51 +1000 2012
+Served asset /blueprint/print.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:29:54 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at Sat Jun 23 23:29:54 +1000 2012
+Served asset /blueprint/screen.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at Sat Jun 23 23:29:54 +1000 2012
+Served asset /blueprint/print.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sat Jun 23 23:31:02 +1000 2012
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at Sat Jun 23 23:31:02 +1000 2012
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at Sat Jun 23 23:31:02 +1000 2012
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Jun 23 23:31:19 +1000 2012
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at Sat Jun 23 23:31:19 +1000 2012
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at Sat Jun 23 23:31:19 +1000 2012
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
